@@ -1,0 +1,14 @@
+.card {
+  height: 500px;
+  width: 500px;
+  background-image: url(https://live.staticflickr.com/3323/3444093325_deb6a2ed33.jpg);
+  background-size: cover;
+  background-position: center center;
+  border: 15px solid white;
+  box-shadow: 0 10px 30px -5px rgba(0, 0, 0, 0.3);
+  will-change: transform;
+}
+
+.card:hover {
+  box-shadow: 0 10px 100px -10px rgba(0, 0, 255, 0.4);
+}
